@@ -15,9 +15,9 @@ con ajustes de "contrast ratio" https://webaim.org/resources/contrastchecker/
 /* cambien aquí sus colores, necesitan definir tres */
 
 :root {
-    --primercolor: #222;
-    --segundocolor: #666; /* menos luminoso y más saturado que el primero */
-    --tercercolor: #aaa; /* más luminoso y menos saturado que el primero */
+    --primercolor: #C7C2C7;
+    --segundocolor: #00538A; /* menos luminoso y más saturado que el primero */
+    --tercercolor: #FFC64D; /* más luminoso y menos saturado que el primero */
     --colorclaro: rgba(255, 255, 255, 0.9);
     --coloroscuro: rgba(0, 0, 0, 0.9);
 }
@@ -44,6 +44,7 @@ p.lead {
     /* asignen aquí la tipografía y peso que corresponda para los títulos */
     font-family: "Dela Gothic One", cursive;
     font-weight: 400;
+    color: var(--tercercolor);
 }
 
 a {
@@ -116,7 +117,7 @@ main {
 
 aside {
     background: var(--tercercolor);
-    color: var(--coloroscuro);
+    color: var(--primercolor);
 }
 
 footer {
@@ -141,7 +142,7 @@ footer a:hover {
 
 .card,
 .card-img-top {
-    background: var(--colorclaro);
+    background: var(--segundocolor);
     border: none;
     border-radius: 0 0;
 }
