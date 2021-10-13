@@ -106,11 +106,44 @@ Para más información sobre los objetivos de desarrollo sostenible pincha  <a h
                 <div class="container">
                     <div class="row py-5 align-items-center">
                         <div class="col-md-6 col-lg-7">
-                            <canvas id="nuestroGrafico" class="bg-light" width="16" height="9"></canvas>
+
+<canvas id="myChart"></canvas>
+<script src="chart.js"></script>
+<script>
+var ctx = document.getElementById('myChart').getContext('2d');
+var chart = new Chart(ctx, {
+    
+
+
+ 
+
+
+
+    type: 'pie',
+    data:{
+   datasets: [{
+    label: 'My First Dataset',
+    data: [0, 30, 70],
+    backgroundColor: [
+      'rgb(54, 162, 235)',
+      'rgb(255, 205, 86)'
+    ],
+        label: 'Comparacion de navegadores'}],
+        labels: ['Plancton oceánico','Bosques']},
+    options: {responsive: true}
+});
+</script>
+                           
                         </div>
                         <div class="col-md-6 col-lg-5 p-4">
                             <h3><i class="bi bi-emoji-sunglasses"></i> Este subtítulo tiene que referir a un gráfico no figurativo</h3>
                             <p>
+
+
+
+
+
+
                                 <a href="https://www.chartjs.org/docs/latest/">Charts.js</a> es una biblioteca de JavaScript con la que pueden hacer gráficos interactivos. Estos gráficos se dibujan dentro de un canvas, que es un elemento de
                                 HTML que permite dibujar con texto. Como elemento, se parece a SVG, pero su uso es más complejo.
                             </p>
