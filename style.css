@@ -28,7 +28,7 @@ body {
     font-family:'Quicksand', sans-serif;
     font-weight: 400;
     background: var(--segundocolor);
-    color: var(--colorclaro);
+    color: var(--tercercolor);
 }
 
 strong {
@@ -45,7 +45,7 @@ p.lead {
     /* asignen aquí la tipografía y peso que corresponda para los títulos */
     font-family: 'Paytone One', sans-serif;
     font-weight: 400;
-    color: var(--tercercolor);
+    color: var(--colorclaro);
 }
 
 a {
@@ -75,7 +75,7 @@ en todos los casos la imagen debería pesar menos de 300kb
 
 header {
     background-color: var(--segundocolor);
-    background-image: url("img/relacion-3x4.png");
+    background-image: url("img/34.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -84,13 +84,13 @@ header {
 
 @media (min-width: 576px) {
     header {
-        background-image: url("img/relacion-4x3.png");
+        background-image: url("img/43.png");
     }
 }
 
 @media (min-width: 992px) {
     header {
-        background-image: url("img/relacion-21x9.png");
+        background-image: url("img/219.png");
     }
 }
 
